@@ -404,7 +404,7 @@
       </div>
       <div class="hero-stats">
         <div class="stat"><div class="stat-num">2+</div><div class="stat-label">Projects</div></div>
-        <div class="stat"><div class="stat-num">1+</div><div class="stat-label">Certificates</div></div>
+        <div class="stat"><div class="stat-num">2+</div><div class="stat-label">Certificates</div></div>
         <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Tech Skills</div></div>
       </div>
     </div>
@@ -517,14 +517,30 @@
           <div class="cert-date">2025 · 2026</div>
         </div>
       </div>
-      <!-- Placeholder for more certificates -->
-      <div class="cert-card" style="cursor:default;">
-        <div class="cert-thumb-placeholder">📜</div>
+      <!-- Discrete Mathematics Specialization Certificate -->
+      <div class="cert-card" onclick="openLightbox(this.querySelector('.cert-thumb'))">
+        <div class="cert-thumb-placeholder" style="background: linear-gradient(135deg, #e0f2fe, #f0fdf8); font-size: 1.8rem; flex-direction: column; gap: 0.4rem;">
+          <span>🎓</span>
+          <span style="font-size: 0.75rem; font-weight: 600; color: #0d9488; letter-spacing: 0.04em;">UC San Diego</span>
+        </div>
         <div class="cert-body">
-          <span class="cert-platform">Coming Soon</span>
-          <div class="cert-name">More Certificates</div>
-          <div class="cert-org">Additional certifications will appear here</div>
-          <div class="cert-date">—</div>
+          <span class="cert-platform">Coursera · Specialization</span>
+          <div class="cert-name">Introduction to Discrete Mathematics for Computer Science</div>
+          <div class="cert-org">UC San Diego — Alexander S. Kulikov, Michael Levin, Vladimir Podolskii</div>
+          <div class="cert-date">Apr 30, 2026 · 5 Courses</div>
+          <div style="margin-top: 0.6rem; display: flex; flex-wrap: wrap; gap: 5px;">
+            <span class="tag" style="font-size: 0.68rem;">Combinatorics</span>
+            <span class="tag" style="font-size: 0.68rem;">Graph Theory</span>
+            <span class="tag" style="font-size: 0.68rem;">Number Theory</span>
+            <span class="tag" style="font-size: 0.68rem;">Probability</span>
+          </div>
+          <div style="margin-top: 0.8rem;">
+            <a href="https://coursera.org/verify/specialization/9ZU1QCYQQGGF" target="_blank"
+               style="font-size: 0.75rem; color: var(--teal); text-decoration: none; font-weight: 500; display: inline-flex; align-items: center; gap: 4px;"
+               onclick="event.stopPropagation()">
+              🔗 Verify Certificate
+            </a>
+          </div>
         </div>
       </div>
     </div>
